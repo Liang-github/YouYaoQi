@@ -15,6 +15,17 @@
 		766417411FE3AB9A009763BF /* YouYaoQiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766417401FE3AB9A009763BF /* YouYaoQiTests.swift */; };
 		7664174C1FE3AB9B009763BF /* YouYaoQiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7664174B1FE3AB9B009763BF /* YouYaoQiUITests.swift */; };
 		7664175A1FE3ABB7009763BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 766417591FE3ABB7009763BF /* Assets.xcassets */; };
+		766417611FE3B2C9009763BF /* UAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766417601FE3B2C9009763BF /* UAPI.swift */; };
+		766417631FE3B424009763BF /* UModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766417621FE3B424009763BF /* UModel.swift */; };
+		76C759E71FE74A3C00B5C986 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C759E61FE74A3C00B5C986 /* ArrayExtensions.swift */; };
+		76C759E91FE75B5700B5C986 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C759E81FE75B5700B5C986 /* UIColorExtension.swift */; };
+		76C759EB1FE7622000B5C986 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C759EA1FE7622000B5C986 /* UIViewExtension.swift */; };
+		76C759ED1FE7897300B5C986 /* UIBarButtonItemExtenison.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C759EC1FE7897300B5C986 /* UIBarButtonItemExtenison.swift */; };
+		76C759EF1FE78BE500B5C986 /* UIDeviceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C759EE1FE78BE500B5C986 /* UIDeviceExtension.swift */; };
+		76C759F11FE78D6D00B5C986 /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C759F01FE78D6D00B5C986 /* UIImageExtensions.swift */; };
+		76C759F31FE792F700B5C986 /* DispatchQueueExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C759F21FE792F700B5C986 /* DispatchQueueExtension.swift */; };
+		76C759F51FE7938400B5C986 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C759F41FE7938400B5C986 /* StringExtension.swift */; };
+		76C759F71FE7943100B5C986 /* DictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C759F61FE7943100B5C986 /* DictionaryExtension.swift */; };
 		B84F36C51D3C0A6C284217CB /* Pods_YouYaoQiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE06BA734719C060753CAEFF /* Pods_YouYaoQiUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +64,17 @@
 		7664174B1FE3AB9B009763BF /* YouYaoQiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouYaoQiUITests.swift; sourceTree = "<group>"; };
 		7664174D1FE3AB9B009763BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		766417591FE3ABB7009763BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		766417601FE3B2C9009763BF /* UAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UAPI.swift; sourceTree = "<group>"; };
+		766417621FE3B424009763BF /* UModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UModel.swift; sourceTree = "<group>"; };
+		76C759E61FE74A3C00B5C986 /* ArrayExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
+		76C759E81FE75B5700B5C986 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		76C759EA1FE7622000B5C986 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		76C759EC1FE7897300B5C986 /* UIBarButtonItemExtenison.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBarButtonItemExtenison.swift; sourceTree = "<group>"; };
+		76C759EE1FE78BE500B5C986 /* UIDeviceExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDeviceExtension.swift; sourceTree = "<group>"; };
+		76C759F01FE78D6D00B5C986 /* UIImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
+		76C759F21FE792F700B5C986 /* DispatchQueueExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchQueueExtension.swift; sourceTree = "<group>"; };
+		76C759F41FE7938400B5C986 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		76C759F61FE7943100B5C986 /* DictionaryExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryExtension.swift; sourceTree = "<group>"; };
 		82B4115151F208E28CEC2EDC /* Pods_YouYaoQi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YouYaoQi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A0DE7B6FEB6E3F045EF71B4 /* Pods-YouYaoQi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouYaoQi.release.xcconfig"; path = "Pods/Target Support Files/Pods-YouYaoQi/Pods-YouYaoQi.release.xcconfig"; sourceTree = "<group>"; };
 		E5F565E38D2C6270E16DE5BF /* Pods-YouYaoQiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouYaoQiTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YouYaoQiTests/Pods-YouYaoQiTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -157,6 +179,7 @@
 		7664175B1FE3AE90009763BF /* API */ = {
 			isa = PBXGroup;
 			children = (
+				766417601FE3B2C9009763BF /* UAPI.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -171,6 +194,15 @@
 		7664175D1FE3AEB0009763BF /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				76C759E61FE74A3C00B5C986 /* ArrayExtensions.swift */,
+				76C759E81FE75B5700B5C986 /* UIColorExtension.swift */,
+				76C759EA1FE7622000B5C986 /* UIViewExtension.swift */,
+				76C759EC1FE7897300B5C986 /* UIBarButtonItemExtenison.swift */,
+				76C759EE1FE78BE500B5C986 /* UIDeviceExtension.swift */,
+				76C759F01FE78D6D00B5C986 /* UIImageExtensions.swift */,
+				76C759F21FE792F700B5C986 /* DispatchQueueExtension.swift */,
+				76C759F41FE7938400B5C986 /* StringExtension.swift */,
+				76C759F61FE7943100B5C986 /* DictionaryExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -178,6 +210,7 @@
 		7664175E1FE3AEBD009763BF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				766417621FE3B424009763BF /* UModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -520,8 +553,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				766417611FE3B2C9009763BF /* UAPI.swift in Sources */,
+				76C759E71FE74A3C00B5C986 /* ArrayExtensions.swift in Sources */,
+				76C759F31FE792F700B5C986 /* DispatchQueueExtension.swift in Sources */,
+				766417631FE3B424009763BF /* UModel.swift in Sources */,
+				76C759F71FE7943100B5C986 /* DictionaryExtension.swift in Sources */,
+				76C759EF1FE78BE500B5C986 /* UIDeviceExtension.swift in Sources */,
 				7664172E1FE3AB9A009763BF /* ViewController.swift in Sources */,
+				76C759ED1FE7897300B5C986 /* UIBarButtonItemExtenison.swift in Sources */,
+				76C759EB1FE7622000B5C986 /* UIViewExtension.swift in Sources */,
+				76C759F51FE7938400B5C986 /* StringExtension.swift in Sources */,
+				76C759F11FE78D6D00B5C986 /* UIImageExtensions.swift in Sources */,
 				7664172C1FE3AB9A009763BF /* AppDelegate.swift in Sources */,
+				76C759E91FE75B5700B5C986 /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
