@@ -18,8 +18,8 @@ extension Dictionary {
         var result = self
         dictionaries.forEach { (dictionary) -> Void in
             dictionary.forEach { (arg) -> Void in
-                let (Key, value) = arg
-                result[Key] = Value
+                let (key, value) = arg
+                result[key] = value
             }
         }
         return result
@@ -64,7 +64,7 @@ extension Dictionary {
     public func map<K, V>(_ map: (Key, Value) -> (K, V)) -> [K: V] {
         var mapped: [K: V] = [:]
         forEach {
-            ler (_key, _value) = map($0, $1)
+            let (_key, _value) = map($0, $1)
             mapped[_key] = _value
         }
         return mapped
@@ -104,7 +104,7 @@ extension Dictionary where Value: Equatable {
     public func difference(_ dictionaries: [Key: Value]...) -> [Key: Value] {
         var result = self
         for dictionary in dictionaries {
-            for (key, value) in dictionaries {
+            for (key, value) in dictionary {
                 if result.has(key) && result[key] == value {
                     result.removeValue(forKey: key)
                 }

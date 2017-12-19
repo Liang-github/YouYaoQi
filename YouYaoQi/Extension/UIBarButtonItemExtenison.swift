@@ -22,7 +22,7 @@ extension UIBarButtonItem {
         button.titleLabel?.font = titleFont
         button.titleEdgeInsets = titleEdgeInsets
         if action != nil {
-            button.addTarget(self, action: action!, for: .touchUpInside)
+            button.addTarget(target, action: action!, for: .touchUpInside)
         }
         button.sizeToFit()
         if button.bounds.width < 40 || button.bounds.height > 40 {

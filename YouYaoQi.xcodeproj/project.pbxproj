@@ -26,6 +26,7 @@
 		76C759F31FE792F700B5C986 /* DispatchQueueExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C759F21FE792F700B5C986 /* DispatchQueueExtension.swift */; };
 		76C759F51FE7938400B5C986 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C759F41FE7938400B5C986 /* StringExtension.swift */; };
 		76C759F71FE7943100B5C986 /* DictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C759F61FE7943100B5C986 /* DictionaryExtension.swift */; };
+		76C75A011FE7B58700B5C986 /* UNoticeBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C75A001FE7B58700B5C986 /* UNoticeBar.swift */; };
 		B84F36C51D3C0A6C284217CB /* Pods_YouYaoQiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE06BA734719C060753CAEFF /* Pods_YouYaoQiUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -75,6 +76,7 @@
 		76C759F21FE792F700B5C986 /* DispatchQueueExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchQueueExtension.swift; sourceTree = "<group>"; };
 		76C759F41FE7938400B5C986 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		76C759F61FE7943100B5C986 /* DictionaryExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryExtension.swift; sourceTree = "<group>"; };
+		76C75A001FE7B58700B5C986 /* UNoticeBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNoticeBar.swift; sourceTree = "<group>"; };
 		82B4115151F208E28CEC2EDC /* Pods_YouYaoQi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YouYaoQi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A0DE7B6FEB6E3F045EF71B4 /* Pods-YouYaoQi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouYaoQi.release.xcconfig"; path = "Pods/Target Support Files/Pods-YouYaoQi/Pods-YouYaoQi.release.xcconfig"; sourceTree = "<group>"; };
 		E5F565E38D2C6270E16DE5BF /* Pods-YouYaoQiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouYaoQiTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YouYaoQiTests/Pods-YouYaoQiTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -187,6 +189,14 @@
 		7664175C1FE3AE9A009763BF /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				76C759FF1FE7B55B00B5C986 /* HairPowder */,
+				76C759FE1FE7B54F00B5C986 /* BarButtonItem */,
+				76C759FD1FE7B53200B5C986 /* CollectionViewLayout */,
+				76C759FC1FE7B52A00B5C986 /* Refresh */,
+				76C759FB1FE7B51D00B5C986 /* EmptyDataSet */,
+				76C759FA1FE7B50D00B5C986 /* SnapKitExtension */,
+				76C759F91FE7B4FD00B5C986 /* ParallaxHeader */,
+				76C759F81FE7B4EA00B5C986 /* NoticeBar */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -220,6 +230,63 @@
 			children = (
 			);
 			path = Procedure;
+			sourceTree = "<group>";
+		};
+		76C759F81FE7B4EA00B5C986 /* NoticeBar */ = {
+			isa = PBXGroup;
+			children = (
+				76C75A001FE7B58700B5C986 /* UNoticeBar.swift */,
+			);
+			path = NoticeBar;
+			sourceTree = "<group>";
+		};
+		76C759F91FE7B4FD00B5C986 /* ParallaxHeader */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ParallaxHeader;
+			sourceTree = "<group>";
+		};
+		76C759FA1FE7B50D00B5C986 /* SnapKitExtension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SnapKitExtension;
+			sourceTree = "<group>";
+		};
+		76C759FB1FE7B51D00B5C986 /* EmptyDataSet */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = EmptyDataSet;
+			sourceTree = "<group>";
+		};
+		76C759FC1FE7B52A00B5C986 /* Refresh */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Refresh;
+			sourceTree = "<group>";
+		};
+		76C759FD1FE7B53200B5C986 /* CollectionViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CollectionViewLayout;
+			sourceTree = "<group>";
+		};
+		76C759FE1FE7B54F00B5C986 /* BarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BarButtonItem;
+			sourceTree = "<group>";
+		};
+		76C759FF1FE7B55B00B5C986 /* HairPowder */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HairPowder;
 			sourceTree = "<group>";
 		};
 		B260031556F00509AC29A66A /* Pods */ = {
@@ -564,6 +631,7 @@
 				76C759EB1FE7622000B5C986 /* UIViewExtension.swift in Sources */,
 				76C759F51FE7938400B5C986 /* StringExtension.swift in Sources */,
 				76C759F11FE78D6D00B5C986 /* UIImageExtensions.swift in Sources */,
+				76C75A011FE7B58700B5C986 /* UNoticeBar.swift in Sources */,
 				7664172C1FE3AB9A009763BF /* AppDelegate.swift in Sources */,
 				76C759E91FE75B5700B5C986 /* UIColorExtension.swift in Sources */,
 			);

@@ -15,7 +15,7 @@ extension UIImage {
         return UIImageJPEGRepresentation(self, 1.0)!.base64EncodedString()
     }
     
-    public func compressImage(rate: CGFloat) -> data? {
+    public func compressImage(rate: CGFloat) -> Data? {
         return UIImageJPEGRepresentation(self, rate)
     }
     
@@ -32,7 +32,7 @@ extension UIImage {
         let newSize = CGSize(width: w, height: h)
         UIGraphicsBeginImageContextWithOptions(newSize, false, 0)
         image.draw(in: CGRect(x: 0, y: 0, width: newSize.width, height: newSize.height))
-        let newImage: UIImage = UIGraphicsGetImageFromCurrentImageContext()
+        let newImage: UIImage = UIGraphicsGetImageFromCurrentImageContext()!
         UIGraphicsEndImageContext()
         return newImage
     }
