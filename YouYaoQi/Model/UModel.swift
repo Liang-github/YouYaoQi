@@ -89,7 +89,7 @@ struct DetailStaticModel: HandyJSON {
     var chapter_list: [ChapterStaticModel]?
     var otherWorks: [OtherWorkModel]?
 }
-struct comicRealttimeModel: HandyJSON {
+struct ComicRealtimeModel: HandyJSON {
     var comic_id: Int = 0
     var user_id: Int = 0
     var status: Int = 0
@@ -116,6 +116,10 @@ struct ChapterRealtimeModel: HandyJSON {
     var is_free: Bool = false
 }
 struct DetailRealtimeModel: HandyJSON {
+    var comic: ComicRealtimeModel?
+    var chapter_list: [ChapterRealtimeModel]?
+}
+struct GuessLikeModel: HandyJSON {
     var normal: Bool = false
     var last_modified: Int = 0
     var comics: [ComicModel]?
@@ -188,7 +192,7 @@ struct SearchResultModel: HandyJSON {
     var comicNum: Int = 0
     var hasMore: Bool = false
     var page: Int = 0
-    var comics: [CommentModel]?
+    var comics: [ComicModel]?
 }
 struct HotItemsModel: HandyJSON {
     var hotItems: [SearchItemModel]?
@@ -255,7 +259,7 @@ struct SpinnerModel: HandyJSON {
 struct DefaultParametersModel: HandyJSON {
     var defaultSelection: Int = 0
     var defaultArgCon: Int = 0
-    var defaultContagType: String?
+    var defaultConTagType: String?
 }
 struct ComicListModel: HandyJSON {
     var comicType: UComicType = .none
@@ -317,8 +321,8 @@ struct RankingModel:HandyJSON {
     var subTitle: String?
     var rankingType: Int = 0
 }
-struct RankingListModel: HandyJSON {
-    var rankingList: [RankingModel]?
+struct RankinglistModel: HandyJSON {
+    var rankinglist: [RankingModel]?
 }
 struct TabModel: HandyJSON {
     var argName: String?

@@ -61,6 +61,16 @@ extension UIView {
         init(to view: UIView) {
             self.superview = view
         }
+        func setup(style: UIBlurEffectStyle, alpha: CGFloat) -> Self {
+            self.editing = true
+            
+            self.style = style
+            self.alpha = alpha
+            
+            self.editing = false
+            
+            return self
+        }
         
         func enable(isHidden: Bool = false) {
             if blur == nil {
